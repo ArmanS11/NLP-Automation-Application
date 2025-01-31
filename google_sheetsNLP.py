@@ -65,7 +65,7 @@ class JobScraper:
     def __init__(self):
         self.headers = {
             "User-Agent":
-        } #local user agent values custom set
+        } #local user agent values configure to your setup
 
     async def fetch_html(self, url: str) -> Optional[str]:
         async with aiohttp.ClientSession(headers=self.headers) as session:
