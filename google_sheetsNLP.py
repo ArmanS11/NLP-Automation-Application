@@ -64,8 +64,8 @@ def append_data_to_sheet(creds, data):
 class JobScraper:
     def __init__(self):
         self.headers = {
-            "User-Agent": "
-        }
+            "User-Agent":
+        } #local user agent here
 
     async def fetch_html(self, url: str) -> Optional[str]:
         async with aiohttp.ClientSession(headers=self.headers) as session:
