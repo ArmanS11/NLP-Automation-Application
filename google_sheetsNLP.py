@@ -15,7 +15,7 @@ from typing import Dict, Optional
 
 # Setup for Google Sheets API
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SPREADSHEET_ID = '1akU7aXmMlX9V8pszEXP5B_F2t405NByt62_PPi1KrZs'  # Add your Spreadsheet ID
+SPREADSHEET_ID = ''  # Add your Spreadsheet ID
 RANGE_NAME = 'Applications!A1'
 
 # Spacy NLP model
