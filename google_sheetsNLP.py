@@ -1,4 +1,4 @@
-#write a shebang script to use from cli
+#this is where you would put a shebang script to use from the command line
 
 import os
 import pickle
