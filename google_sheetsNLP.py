@@ -1,3 +1,5 @@
+#write a shebang script to use from cli
+
 import os
 import pickle
 from google.auth.transport.requests import Request
