@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+Client_Secret.json
+token.pickle
+*.env
+.env
+
+# Local generated data
+uploads/
+outputs/
+jobs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
